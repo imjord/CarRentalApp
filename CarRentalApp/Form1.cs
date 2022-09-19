@@ -46,7 +46,8 @@ namespace CarRentalApp
 
                 if (isValid)
                 {
-                    MessageBox.Show($"Thank you {customerName} for renting a {car} \n on date {dateIn} you have the car until {dateOut} \n your new cost is {cost} ");
+                    Console.Beep(570, 1000);
+                    MessageBox.Show($"Thank you {customerName} for renting a {car} \n on date {dateIn} you have the car until {dateOut} \n your cost is ${cost} ");
 
                 } else
                 {
